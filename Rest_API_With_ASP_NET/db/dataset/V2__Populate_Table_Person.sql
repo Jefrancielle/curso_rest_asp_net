@@ -1,2 +1,2 @@
-INSERT INTO person (address, first_name, gender, last_name) VALUES
-('S�o Paulo - Brasil', 'Ayrton', 'Male', 'Senna' )
+﻿INSERT INTO person (address, first_name, gender, last_name, enabled) VALUES
+('São Paulo - Brasil', 'Ayrton', 'Male', 'Senna', 1 )

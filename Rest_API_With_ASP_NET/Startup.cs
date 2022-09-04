@@ -86,10 +86,10 @@ namespace Rest_API_With_ASP_NET
             var connection = Configuration["SqlServerConnection:SqlServerConnectionString"];
             services.AddDbContext<SqlServerContext>(options => options.UseSqlServer(connection));
 
-            //if (Environment.IsDevelopment())
-            //{
-            //    MigrateDatabase(connection);
-            //}
+            if (Environment.IsDevelopment())
+            {
+                MigrateDatabase(connection);
+            }
 
             services.AddMvc(options =>
             {

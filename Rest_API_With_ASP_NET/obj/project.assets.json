@@ -2991,24 +2991,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jefra\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Mauricio Campos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jefra\\OneDrive\\Documents\\Curso\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
+      "projectUniqueName": "G:\\Lucas\\Nova pasta (3)\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
       "projectName": "Rest_API_With_ASP_NET",
-      "projectPath": "C:\\Users\\jefra\\OneDrive\\Documents\\Curso\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
-      "packagesPath": "C:\\Users\\jefra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jefra\\OneDrive\\Documents\\Curso\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET\\obj\\",
+      "projectPath": "G:\\Lucas\\Nova pasta (3)\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
+      "packagesPath": "C:\\Users\\Mauricio Campos\\.nuget\\packages\\",
+      "outputPath": "G:\\Lucas\\Nova pasta (3)\\Rest_API_With_ASP_NET\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jefra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Mauricio Campos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3093,7 +3088,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
