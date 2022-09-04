@@ -24,6 +24,7 @@ namespace Rest_API_With_ASP_NET.Hypermedia.Enricher
                 Rel = RelationType.self,
                 Type = ResponseTypeFormat.DefaultGet
             });
+            
             content.Links.Add(new HyperMediaLink()
             {
                 Action = HttpActionVerb.POST,
@@ -31,6 +32,7 @@ namespace Rest_API_With_ASP_NET.Hypermedia.Enricher
                 Rel = RelationType.self,
                 Type = ResponseTypeFormat.DefaultPost
             });
+            
             content.Links.Add(new HyperMediaLink()
             {
                 Action = HttpActionVerb.PUT,
@@ -38,6 +40,15 @@ namespace Rest_API_With_ASP_NET.Hypermedia.Enricher
                 Rel = RelationType.self,
                 Type = ResponseTypeFormat.DefaultPut
             });
+            
+            content.Links.Add(new HyperMediaLink()
+            {
+                Action = HttpActionVerb.PATCH,
+                Href = link,
+                Rel = RelationType.self,
+                Type = ResponseTypeFormat.DefaultPatch
+            });
+
             content.Links.Add(new HyperMediaLink()
             {
                 Action = HttpActionVerb.DELETE,

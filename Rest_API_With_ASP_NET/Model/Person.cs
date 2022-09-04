@@ -17,5 +17,8 @@ namespace Rest_API_With_ASP_NET.Model
         
         [Column("gender")]
         public string Gender { get; set; }
+
+        [Column("enabled")]
+        public bool Enabled { get; set; }
     }
 }

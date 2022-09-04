@@ -1,17 +1,24 @@
-﻿using Microsoft.AspNetCore.Rewrite;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Rewrite;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
-using Microsoft.SqlServer;
-using Microsoft.Data.SqlClient;
 using Rest_API_With_ASP_NET.Business;
 using Rest_API_With_ASP_NET.Business.Implementations;
+using Rest_API_With_ASP_NET.Configurations;
 using Rest_API_With_ASP_NET.Hypermedia.Enricher;
 using Rest_API_With_ASP_NET.Hypermedia.Filters;
 using Rest_API_With_ASP_NET.Model.Context;
 using Rest_API_With_ASP_NET.Repository;
 using Rest_API_With_ASP_NET.Repository.Generic;
+using Rest_API_With_ASP_NET.Services.Implementations;
 using Serilog;
+using System.Text;
 
 namespace Rest_API_With_ASP_NET
 {
@@ -32,15 +39,57 @@ namespace Rest_API_With_ASP_NET
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var tokenConfigurations = new TokenConfiguration();
+
+            new ConfigureFromConfigurationOptions<TokenConfiguration>(
+                   Configuration.GetSection("TokenConfigurations")
+               )
+               .Configure(tokenConfigurations);
+
+            services.AddSingleton(tokenConfigurations);
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = tokenConfigurations.Issuer,
+                    ValidAudience = tokenConfigurations.Audience,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenConfigurations.Secret))
+                };
+            });
+
+            services.AddAuthorization(auth =>
+            {
+                auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .RequireAuthenticatedUser().Build());
+            });
+
+            services.AddCors(options => options.AddDefaultPolicy(builder =>
+            {
+                builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            }));
+
             services.AddControllers();
 
             var connection = Configuration["SqlServerConnection:SqlServerConnectionString"];
             services.AddDbContext<SqlServerContext>(options => options.UseSqlServer(connection));
 
-            if (Environment.IsDevelopment())
-            {
-                MigrateDatabase(connection);
-            }
+            //if (Environment.IsDevelopment())
+            //{
+            //    MigrateDatabase(connection);
+            //}
 
             services.AddMvc(options =>
             {
@@ -59,23 +108,34 @@ namespace Rest_API_With_ASP_NET
             //Versioning API
             services.AddApiVersioning();
 
-            services.AddSwaggerGen(c => {
+            services.AddSwaggerGen(c =>
+            {
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "REST API's From 0 to Azure with ASP.NET Core 5 and Docker",
+                        Title = "REST API's From 0 to Azure with ASP.NET Core 5",
                         Version = "v1",
-                        Description = "API RESTful developed in course 'REST API's From 0 to Azure with ASP.NET Core 5 and Docker'",
+                        Description = "API RESTful developed in course 'REST API's From 0 to Azure with ASP.NET Core 5'",
                         Contact = new OpenApiContact
                         {
-                            Name = "Jessica",
+                            Name = "Jessica Franciele",
                             Url = new Uri("https://github.com/Jefrancielle")
                         }
                     });
             });
 
             //Dependency Injection
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
             services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
+            services.AddScoped<ILoginBusiness, LoginBusinessImplementation>();
+            services.AddScoped<IFileBusiness, FileBusinessImplementation>();
+
+            services.AddTransient<ITokenService, TokenService>();
+
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
+
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
         }
 
@@ -91,9 +151,12 @@ namespace Rest_API_With_ASP_NET
 
             app.UseRouting();
 
+            app.UseCors();
+
             app.UseSwagger();
 
-            app.UseSwaggerUI(c => {
+            app.UseSwaggerUI(c =>
+            {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json",
                     "REST API's From 0 to Azure with ASP.NET Core 5 and Docker - v1");
             });
@@ -131,3 +194,4 @@ namespace Rest_API_With_ASP_NET
         }
     }
 }
+
