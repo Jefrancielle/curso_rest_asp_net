@@ -113,9 +113,9 @@ namespace Rest_API_With_ASP_NET
                 c.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "REST API's From 0 to Azure with ASP.NET Core 5",
+                        Title = "REST API's From 0 with ASP.NET Core 6",
                         Version = "v1",
-                        Description = "API RESTful developed in course 'REST API's From 0 to Azure with ASP.NET Core 5'",
+                        Description = "API RESTful developed in course 'REST API's From 0 with ASP.NET Core 6'",
                         Contact = new OpenApiContact
                         {
                             Name = "Jessica Franciele",
@@ -158,7 +158,7 @@ namespace Rest_API_With_ASP_NET
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json",
-                    "REST API's From 0 to Azure with ASP.NET Core 5 and Docker - v1");
+                    "REST API's From 0 with ASP.NET Core 6 - v1");
             });
 
             var option = new RewriteOptions();

@@ -2991,19 +2991,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mauricio Campos\\.nuget\\packages\\": {}
+    "C:\\Users\\jefra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Lucas\\Nova pasta (3)\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
+      "projectUniqueName": "C:\\Users\\jefra\\OneDrive\\Documents\\Curso\\curso_rest_asp_net\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
       "projectName": "Rest_API_With_ASP_NET",
-      "projectPath": "G:\\Lucas\\Nova pasta (3)\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
-      "packagesPath": "C:\\Users\\Mauricio Campos\\.nuget\\packages\\",
-      "outputPath": "G:\\Lucas\\Nova pasta (3)\\Rest_API_With_ASP_NET\\obj\\",
+      "projectPath": "C:\\Users\\jefra\\OneDrive\\Documents\\Curso\\curso_rest_asp_net\\Rest_API_With_ASP_NET\\Rest_API_With_ASP_NET.csproj",
+      "packagesPath": "C:\\Users\\jefra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jefra\\OneDrive\\Documents\\Curso\\curso_rest_asp_net\\Rest_API_With_ASP_NET\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Mauricio Campos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jefra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3088,7 +3093,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
