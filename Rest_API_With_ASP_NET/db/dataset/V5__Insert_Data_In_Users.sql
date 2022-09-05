@@ -1,0 +1,2 @@
+﻿INSERT INTO users (user_name, password, full_name, refresh_token, refresh_token_expiry_time) VALUES
+('jessica', 'A6-65-A4-59-20-42-2F-9D-41-7E-48-67-EF-DC-4F-B8-A0-4A-1F-3F-FF-1F-A0-7E-99-8E-86-F7-F7-A2-7A-E3', 'JESSICA FRANCIELLE', 'h9lzVOoLlBoTbcQrh/e16/aIj+4p6C67lLdDbBRMsjE=', '27-09-2020 17:30:49');

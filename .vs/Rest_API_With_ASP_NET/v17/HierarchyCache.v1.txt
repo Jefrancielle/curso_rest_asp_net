@@ -1,0 +1,214 @@
+﻿++Solução 'Rest_API_With_ASP_NET' ‎(1 de 1 projeto)
+i:{00000000-0000-0000-0000-000000000000}:Rest_API_With_ASP_NET.sln
+++Rest_API_With_ASP_NET
+i:{00000000-0000-0000-0000-000000000000}:Rest_API_With_ASP_NET
+++Connected Services 
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>421
+++Dependências
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>420
+++Properties
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\properties\
+++Business
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\
+++Configurations
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\configurations\
+++TokenConfiguration.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\configurations\tokenconfiguration.cs
+++Controllers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\controllers\
+++AuthController.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\controllers\authcontroller.cs
+++FileController.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\controllers\filecontroller.cs
+++PersonController.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\controllers\personcontroller.cs
+++Data
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\
+++db
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\
+++dataset
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\dataset\
+++V2__Populate_Table_Person.sql
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\dataset\v2__populate_table_person.sql
+++V4__Populate_Person_With_Many.sql
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\dataset\v4__populate_person_with_many.sql
+++V5__Insert_Data_In_Users.sql
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\dataset\v5__insert_data_in_users.sql
+++migrations
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\migrations\
+++V1__Create_Table_Person.sql
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\migrations\v1__create_table_person.sql
+++V3__Create_Table_Users.sql
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\db\migrations\v3__create_table_users.sql
+++Hypermedia
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\
+++Model
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\model\
+++Base
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\model\base\
+++Context
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\model\context\
+++Person.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\model\person.cs
+++User.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\model\user.cs
+++Repository
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\
+++Services
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\services\
+++UploadDir
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\uploaddir\
+++appsettings.json
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\appsettings.json
+++Program.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\program.cs
+++Startup.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\startup.cs
+++Nenhuma dependência de serviço descoberta
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>422
+++Analisadores
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:analisadores
+++Estruturas
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:estruturas
+++Pacotes
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:pacotes
+++launchSettings.json
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\properties\launchsettings.json
+++Implementations
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\implementations\
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\services\implementations\
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\converter\implementations\
+++IFileBusiness.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\ifilebusiness.cs
+++ILoginBusiness.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\iloginbusiness.cs
+++IPersonBusiness.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\ipersonbusiness.cs
+++Converter
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\converter\
+++VO
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\vo\
+++Abstract
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\abstract\
+++Constants
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\constants\
+++Enricher
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\enricher\
+++Filters
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\filters\
+++Utils
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\utils\
+++ContentResponseEnricher.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\contentresponseenricher.cs
+++HyperMediaLink.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\hypermedialink.cs
+++BaseEntity.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\model\base\baseentity.cs
+++SqlServerContext.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\model\context\sqlservercontext.cs
+++Generic
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\generic\
+++IPersonRepository.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\ipersonrepository.cs
+++IUserRepository.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\iuserrepository.cs
+++PersonRepository.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\personrepository.cs
+++UserRepository.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\userrepository.cs
+++ITokenService.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\services\itokenservice.cs
+++appsettings.Development.json
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\microsoft.netcore.app
+++EntityFramework (6.4.4)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>440
+++Evolve (3.0.0)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>442
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.0)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>439
+++Microsoft.AspNetCore.Mvc.Versioning (5.0.0)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>433
+++Microsoft.EntityFrameworkCore (6.0.8)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>434
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.8)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>435
+++Serilog (2.11.0)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>441
+++Serilog.AspNetCore (6.0.1)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>437
+++Serilog.Sinks.Console (4.0.1)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>438
+++Swashbuckle.AspNetCore (6.2.3)
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:>436
+++FileBusinessImplementation.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\implementations\filebusinessimplementation.cs
+++LoginBusinessImplementation.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\implementations\loginbusinessimplementation.cs
+++PersonBusinessImplementation.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\business\implementations\personbusinessimplementation.cs
+++Contract
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\converter\contract\
+++FileDetailVO.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\vo\filedetailvo.cs
+++PersonVO.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\vo\personvo.cs
+++TokenVO.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\vo\tokenvo.cs
+++UserVO.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\vo\uservo.cs
+++IResponseEnricher.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\abstract\iresponseenricher.cs
+++ISupportsHyperMedia.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\abstract\isupportshypermedia.cs
+++HttpActionVerb.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\constants\httpactionverb.cs
+++RelationType.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\constants\relationtype.cs
+++ResponseTypeFormat.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\constants\responsetypeformat.cs
+++PersonEnricher.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\enricher\personenricher.cs
+++HyperMediaFilter.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\filters\hypermediafilter.cs
+++HyperMediaFilterOptions.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\filters\hypermediafilteroptions.cs
+++PagedSearchVO.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\hypermedia\utils\pagedsearchvo.cs
+++GenericRepository.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\generic\genericrepository.cs
+++IRepository.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\repository\generic\irepository.cs
+++TokenService.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\services\implementations\tokenservice.cs
+++IParser.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\converter\contract\iparser.cs
+++PersonConverter.cs
+i:{70f9fe24-7b8e-4860-b204-725a7f64d214}:c:\users\jefra\onedrive\documents\curso\curso_rest_asp_net\rest_api_with_asp_net\data\converter\implementations\personconverter.cs
