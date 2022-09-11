@@ -56,6 +56,7 @@ namespace Rest_API_With_ASP_NET.Hypermedia.Enricher
                 Rel = RelationType.self,
                 Type = "int"
             });
+
             return null;
         }
 

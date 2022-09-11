@@ -34,7 +34,7 @@ namespace Rest_API_With_ASP_NET.Business.Implementations
 
             string query = @"select * from person p where 1 = 1 ";
             if (!string.IsNullOrWhiteSpace(name)) query = query + $" and p.first_name like '%{name}%' ";
-            query += $" order by p.first_name {sort} limit {size} offset {offset}";
+            query += $" order by p.first_name {sort} offset {offset} rows fetch next {size} rows only";
 
             string countQuery = @"select count(*) from person p where 1 = 1 ";
             if (!string.IsNullOrWhiteSpace(name)) countQuery = countQuery + $" and p.first_name like '%{name}%' ";
